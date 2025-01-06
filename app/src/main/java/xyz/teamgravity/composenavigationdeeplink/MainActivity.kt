@@ -42,6 +42,9 @@ class MainActivity : ComponentActivity() {
                             deepLinks = listOf(
                                 navDeepLink<Route.DeepLink>(
                                     basePath = "https://${DeepLinkConst.DOMAIN}"
+                                ),
+                                navDeepLink<Route.DeepLink>(
+                                    basePath = "https://www.${DeepLinkConst.DOMAIN}"
                                 )
                             )
                         ) { entry ->
