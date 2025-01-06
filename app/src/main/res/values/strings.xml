@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ComposeNavigationDeepLink</string>
+
+    <!-- DeepLinkNotification -->
+    <string name="app_launched">App Launched!</string>
+    <string name="tap_to_open_deep_link">Tap to open deep link</string>
+
+    <!-- Home -->
+    <string name="home_screen">Home screen</string>
 </resources>
